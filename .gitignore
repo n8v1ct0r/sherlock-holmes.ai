@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Sherlock cache and outputs
+.sherlock_cache/
+sherlock/outputs/*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv
+.python-version
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
